@@ -70,6 +70,8 @@ curve(pbinom(x, 5, 0.4), col = "green", add = TRUE)
 
 #c) un échantillon par simulation
 #Loi Exponentielle
+#le parametre lambda egale a 1 par defaut
+#lambda = 1
 e1<- rexp(N1)
 e2<- rexp(N2)
 e3<- rexp(N3)
